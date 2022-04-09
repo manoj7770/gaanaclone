@@ -1,6 +1,6 @@
 import React from "react";
-import '../App.css'
-import scrolldown from "../Components/scrolldown.jpg.png";
+import "../../App.css";
+import scrolldown from "../Images/scrolldown.jpg.png";
 
 const Category = () => {
     return (

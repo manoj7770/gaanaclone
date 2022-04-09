@@ -1,13 +1,13 @@
 import React from "react";
-import '../App.css'
+import "../../App.css";
 
-import NewReleasesHindi from "../Components/NewReleasesHindi.jpg";
-import GarvHai from "../Components/GarvHai.jpg";
-import BPraakRomanticHits from "../Components/BPraakRomanticHits.jpg";
-import NewReleasesPunjabi from "../Components/NewReleasesPunjabi.jpg";
-import PartyHot50 from "../Components/PartyHot50.jpg";
-import TopSearches from "../Components/TopSearches.jpg";
-import Carousel, { CarouselItem } from "../Components/Carousel";
+import NewReleasesHindi from "../Images/NewReleasesHindi.jpg";
+import GarvHai from "../Images/GarvHai.jpg";
+import BPraakRomanticHits from "../Images/BPraakRomanticHits.jpg";
+import NewReleasesPunjabi from "../Images/NewReleasesPunjabi.jpg";
+import PartyHot50 from "../Images/PartyHot50.jpg";
+import TopSearches from "../Images/TopSearches.jpg";
+import Carousel, { CarouselItem } from "../Carousel/Carousel";
 
 const ImageSlider = () => {
     return (

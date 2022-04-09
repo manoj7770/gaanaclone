@@ -1,6 +1,6 @@
 import React,{useState} from "react";
-import "../App.css";
-import playbutton1 from "../Components/playbutton1.jpg";
+import "../../App.css";
+import playbutton1 from "../Images/playbutton1.jpg";
 
 const MusicCard = ({image, title, index})=>{
     const[handleHover, setHandleHover] = useState(null)

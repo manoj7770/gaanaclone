@@ -1,14 +1,11 @@
 import React from "react";
-import "../App.css";
-import MusicCard from "./MusicCard";
-import mastnazronse from "../Components/mastnazronse.jpg";
-import terasaathho from "../Components/terasaathho.jpg";
-import mereyara from "../Components/mereyara.jpg";
-import JoMujheDeewanaKarDe from "../Components/JoMujheDeewanaKarDe.jpg";
-import Dream from "../Components/Dream.jpg";
-import bigmen from "../Components/bigmen.jpg";
-import Asitwas from "../Components/Asitwas.jpg";
-import Carousel, { CarouselItem } from "../Components/Carousel";
+import "../../App.css";
+import MusicCard from "../MusicCard/MusicCard";
+import mastnazronse from "../Images/mastnazronse.jpg";
+import terasaathho from "../Images/terasaathho.jpg";
+import mereyara from "../Images/mereyara.jpg";
+import bigmen from "../Images/bigmen.jpg";
+import Asitwas from "../Images/Asitwas.jpg";
 
 const arr =[{image: Asitwas, title:"As it is"},{image:bigmen, title:"Big Men" }, {image:mastnazronse, title:"Mast Nazron se" },{ image:mereyara, title:"Mera Yara"} , {image:terasaathho, title:"Tera Saath Ho"}]
 const Music = () => {

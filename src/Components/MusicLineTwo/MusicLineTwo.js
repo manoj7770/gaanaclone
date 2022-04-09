@@ -1,12 +1,12 @@
 import React from "react";
-import "../App.css";
-import JoMujheDeewanaKarDe from "../Components/JoMujheDeewanaKarDe.jpg";
-import MissHairan from "../Components/MissHairan.jpg";
-import Dream from "../Components/Dream.jpg";
-import Familia from "../Components/Familia.jpg";
-import MusicCard from "./MusicCard";
+import "../../App.css";
+import JoMujheDeewanaKarDe from "../Images/JoMujheDeewanaKarDe.jpg";
+import MissHairan from "../Images/MissHairan.jpg";
+import Dream from "../Images/Dream.jpg";
+import Familia from "../Images/Familia.jpg";
+import MusicCard from "../MusicCard/MusicCard";
 const arr =[{image: JoMujheDeewanaKarDe, title:"Jo Mujhe Deewana Kar"},{image:MissHairan, title:"Miss Hairan" }, {image:Dream, title:"Dream" },{ image:Familia, title:"Familia"}]
-const MusicLIneTwo = () => {
+const MusicLineTwo = () => {
 
 
     return (
@@ -38,4 +38,4 @@ const MusicLIneTwo = () => {
     )
 }
 
-export default MusicLIneTwo;
+export default MusicLineTwo;

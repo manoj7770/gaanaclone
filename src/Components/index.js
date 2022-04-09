@@ -1,9 +1,9 @@
 import React from "react";
-import Category from "./Category";
-import ImageSlider from "./ImageSlider";
-import Music from "./Music";
-import MusicLIneTwo from "./MusicLIneTwo";
-import NavBar from "./NavBar";
+import Category from "./Category/Category";
+import ImageSlider from "./ImageSlider/ImageSlider";
+import Music from "./Music/Music";
+import MusicLIneTwo from "./MusicLineTwo/MusicLineTwo";
+import NavBar from "./NavBar/NavBar";
 
 
 const Index = () => {

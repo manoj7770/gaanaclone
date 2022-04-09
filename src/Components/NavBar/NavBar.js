@@ -1,6 +1,6 @@
 import React from "react";
-import '../App.css'
-import Gaanalogo from "../Components/Gaanalogo.jpg";
+import "../../App.css";
+import Gaanalogo from "../Images/Gaanalogo.jpg";
 const NavBar = () => {
     return (
         <>
