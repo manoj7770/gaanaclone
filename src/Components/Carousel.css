@@ -1,0 +1,48 @@
+.carousel {
+    overflow: hidden;
+  }
+  
+  .inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+  }
+  
+  .carousel-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    /* background-color: green; */
+    color: #fff;
+  }
+  
+  .indicators {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .indicators > button {
+    margin: 5px;
+  }
+  
+  .indicators > button.active {
+    background-color: green;
+    color: #fff;
+  }
+  
+  .Next {
+    position: absolute;
+    right: 450px;
+    top: 380px;
+    background-color: transparent;
+    border: none;
+    font-size: 70px;
+  }
+  .Prev {
+    position: absolute;
+    left: 450px;
+    top: 380px;
+    background-color: transparent;
+    border: none;
+    font-size: 70px;
+  }
